@@ -41,8 +41,7 @@
     <?php foreach ($matches as $match) { ?>
 
       <li>
-        <?php echo $match['team1'] ?> - <?php echo $match['team2'] ?> | 
-        <?php echp $match['point_team_1'] ?>-<?php echo $match['point_team_2'] ?>
+        <?php echo $match['team1'] ?> - <?php echo $match['team2'] ?> | <?php echo $match['point_team_1'] ?>-<?php echo $match['point_team_2'] ?>
       </li>
 
     <?php } ?>
